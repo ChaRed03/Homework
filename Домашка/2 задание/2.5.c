@@ -51,4 +51,5 @@ int main(){
     if (a==12) {
         printf("%d", m12);
              }
+    return 0;
 }
