@@ -13,7 +13,7 @@ int main(){
         a = a - 1;
     }
     d = b;
-    printf("%llu", d);
+    printf("%llu", d); //Чисто для себя:)
     printf("\n");
 
     d = d % 100;
