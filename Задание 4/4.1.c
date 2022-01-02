@@ -13,8 +13,8 @@ int main(){
         a = a - 1;
     }
     d = b;
-    printf("%llu", d); //Чисто для себя:)
-    printf("\n");
+     //Чисто для себя:) printf("%llu", d);printf("\n");
+    
 
     d = d % 100;
     if (d < 10){
