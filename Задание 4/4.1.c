@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-   unsigned long long b, d , i;
-   int a;
+    unsigned long long b, d , i;
+    int a;
     b = 1;
     scanf("%d", &a);
     if (a >= 20){
@@ -13,15 +13,16 @@ int main(){
         a = a - 1;
     }
     d = b;
-     //Чисто для себя:) printf("%llu", d);printf("\n");
+    //printf("%llu", d);  Чисто для себя:) 
+    //printf("\n");
     
 
     d = d % 100;
-    if (d < 10){
-    printf("0%llu", d);
+    if (d < 10) {
+    printf("0%llu\n", d);
     }
-    else{
-        printf("%llu", d);
+    else {
+        printf("%llu\n", d);
     }
     return 0;
     }
