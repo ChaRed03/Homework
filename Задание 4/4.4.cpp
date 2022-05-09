@@ -19,11 +19,5 @@ int main(){
     for (i = 0; i < N; i++){ //output new array
         cout << A[i] << " ";
     }
-
-
-
-
-
-
     return 0;
 }
